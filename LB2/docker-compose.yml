@@ -53,4 +53,4 @@ services:
       - PUID=1000
       - PGID=1000
       - VERSION=latest
-      - PLEX_CLAIM=claim-iEKfocShwkEAgyjgTY1P
+      - PLEX_CLAIM=claim-iEKfocShwkEAgyjgTY1P #Plex Claim Code läuf nach 5 min ab 
