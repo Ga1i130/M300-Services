@@ -1,0 +1,53 @@
+---
+version: "3.4"
+
+volumes:
+  data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/ubuntu/data/plexmueller/config
+      o: bind
+
+  musik:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/ubuntu/data/plexmueller/musik
+      o: bind
+
+  filme:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/ubuntu/data/plexmueller/filme
+      o: bind
+
+  serien:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/ubuntu/data/plexmueller/serien
+      o: bind
+
+services:
+  plex:
+    image: ghcr.io/linuxserver/plex:latest
+    container_name: plex
+    restart: unless-stopped
+    ports:
+      - 32400:32400
+      - 32400:32400/udp
+
+    volumes:
+      - data:/config
+      - musik:/media/musik
+      - serien:/media/serien
+      - filme:/media/filme
+
+    environment:
+      - TZ=Europe/Zuerich
+      - PUID=1000
+      - PGID=1000
+      - VERSION=latest
+      - PLEX_CLAIM=claim-iEKfocShwkEAgyjgTY1P
