@@ -1,0 +1,8 @@
+## Idee
+Ursprüngich, hatte ich die Idee, eine Website zu erstellen, welche den Inhalt einer SQL Datenbanck darstellt. Da dies aber schon welche machen wollten, habe ich mich für einen Plex Server entschieden.
+
+Plex ist ein Mediaserver, mit diesem, kann man Videos (Filme, Serien) oder auch Musik Online Verfügbar machen, dies über ein NAS einen Standalone oder über Dockercontainer. 
+
+## Aufbau 
+
+Zeichnung2.png
