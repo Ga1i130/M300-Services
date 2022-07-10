@@ -16,3 +16,9 @@ Config
 Dies ist der Ordner für die Plex konfiguration
 
 ![Zeichnung2](https://user-images.githubusercontent.com/63262820/178158434-e346ccaf-31cf-4e89-a8fc-a5043d400442.png)
+
+## Probleme
+
+Zubeginn des Projektes (nachdem ich das Docker Compose file Geschrieben hatte) bekam ich das problem, dass beim starten des Docker Compose befels mir dieser Error (Siehe unten) angezeit wird. Habe keine Ahnung was das für ein Problem ist.
+
+![image](https://user-images.githubusercontent.com/63262820/178159934-2b1179f0-b9e9-42d0-9a5b-aedda597b0e1.png)
