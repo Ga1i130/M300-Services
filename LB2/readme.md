@@ -13,4 +13,4 @@ In diesen Ordnern werden alle Filme unud Serien welche auf dem Plex Server ansch
 Config
 Dies ist der Ordner für die Plex konfiguration
 
-### Hallo
+![Zeichnung2](https://user-images.githubusercontent.com/63262820/178158434-e346ccaf-31cf-4e89-a8fc-a5043d400442.png)
