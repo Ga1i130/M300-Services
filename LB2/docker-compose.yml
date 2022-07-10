@@ -1,5 +1,5 @@
 ---
-version: "3.4"
+version: "1.0" #Version des Docker Compose Files
 
 volumes:
   data:
@@ -9,6 +9,7 @@ volumes:
       device: /home/ubuntu/data/plexmueller/config
       o: bind
 
+#Mount des Musik Folders 
   musik:
     driver: local
     driver_opts:
