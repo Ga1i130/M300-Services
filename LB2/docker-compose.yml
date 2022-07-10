@@ -17,6 +17,7 @@ volumes:
       device: /home/ubuntu/data/plexmueller/musik
       o: bind
 
+#Mount des Filme Folders 
   filme:
     driver: local
     driver_opts:
@@ -24,6 +25,7 @@ volumes:
       device: /home/ubuntu/data/plexmueller/filme
       o: bind
 
+#Mount des Serien Folders 
   serien:
     driver: local
     driver_opts:
@@ -33,10 +35,10 @@ volumes:
 
 services:
   plex:
-    image: ghcr.io/linuxserver/plex:latest
-    container_name: plex
+    image: ghcr.io/linuxserver/plex:latest #Plex Image von ghcr.io
+    container_name: plex 
     restart: unless-stopped
-    ports:
+    ports: #Netzwerkports
       - 32400:32400
       - 32400:32400/udp
 
