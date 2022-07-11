@@ -44,7 +44,11 @@ Interessante Infos aus dem Inspect command
 2. Ich habe die Docker Compose Version Falsch (1.0 statt 2.6.1)
 3. Aussicht von docker heisst dieser "ordner" nicht plexmueller_filme sondern nur filme
 4. Die Addressierung ist anders als in meinem Docker compose file ![image](https://user-images.githubusercontent.com/63262820/178341543-c0640268-a641-4ad2-a31a-e808bb4fdd61.png)
-Ist dies die Lösung?
+Ist dies die Lösung? 
 
+Update: Nein war es nicht 
+
+#### Lösungsversuch 3
+Ich wollte mal kurz nochmals auf formfehler kontrollieren :) Ich hatte einen gefunden 
 
 ---
