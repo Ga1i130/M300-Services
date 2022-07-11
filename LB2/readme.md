@@ -24,17 +24,44 @@ https://github.com/plexinc/pms-docker
 https://computingforgeeks.com/how-to-run-plex-media-server-in-docker-containers/
 https://hub.docker.com/r/linuxserver/plex
 https://medium.com/@TechSquidTV/making-your-own-home-media-server-with-plex-and-docker-compose-techsquidtv-38a004257c66
+
 2. Erstes zusammenschreiben eines Docker Compose Files nach der Anleitung eines YT Videos
-3. Auftauchen des Ersten Errors (Siehe Probleme/1)
-4. 1 h später ![image](https://user-images.githubusercontent.com/63262820/178344856-84eee1f8-794a-4497-8b09-4623a4641bb2.png)
+
+4. Auftauchen des Ersten Errors (Siehe Probleme/1)
+
+5. 1 h später 
+
+![image](https://user-images.githubusercontent.com/63262820/178344856-84eee1f8-794a-4497-8b09-4623a4641bb2.png)
 OHA
+
 5. Neues Problem siehe Problem 2
+
 6. Doch kein Problem 
-7. ![image](https://user-images.githubusercontent.com/63262820/178348124-95a1eaf6-4002-4375-86b1-8fd5bea9d52d.png)
-Nun war ich an der Stelle an welcher ich die Info daten für den Plex server eingeben musste
-8. Hinzufügen der Mediatheken ![image](https://user-images.githubusercontent.com/63262820/178348531-5dbc6808-4c99-4155-b990-3aac96f0b84c.png)
+
+7. Nun war ich an der Stelle an welcher ich die Info daten für den Plex server eingeben musste
+
+![image](https://user-images.githubusercontent.com/63262820/178348124-95a1eaf6-4002-4375-86b1-8fd5bea9d52d.png)
+
+8. Hinzufügen der Mediatheken 
+
+![image](https://user-images.githubusercontent.com/63262820/178348531-5dbc6808-4c99-4155-b990-3aac96f0b84c.png)
+
 9. Fertig
-####10. Upload eines Videos
+
+#### 10. Upload eines Videos
+
+11. Download FTP Server auf den Server
+
+12. Fehler weil berechtigunge auf den Filme ordner gesetzt wurden, welche das schreiben von Dateinen nicht zulassen.
+
+![image](https://user-images.githubusercontent.com/63262820/178354085-2c987e7e-22cf-441c-9698-89f2e9778f37.png)
+
+13. Hochladen in config ordner dann MV command um ihn mit root in den film ezu verschieben ^. 
+
+14. Fertig Fertig 
+
+![image](https://user-images.githubusercontent.com/63262820/178354222-1c47681b-3afd-4cff-a603-0a55a8abe3b5.png)
+![image](https://user-images.githubusercontent.com/63262820/178354255-6728bd81-40c4-472c-89f8-870a5f2cfbd9.png)
 
 ## Probleme
 
@@ -42,8 +69,10 @@ Nun war ich an der Stelle an welcher ich die Info daten für den Plex server ein
 Zubeginn des Projektes (nachdem ich das Docker Compose file Geschrieben hatte) bekam ich das problem, dass beim starten des Docker Compose befels mir dieser Error (Siehe unten) angezeit wird. Habe keine Ahnung was das für ein Problem ist.
 
 ![image](https://user-images.githubusercontent.com/63262820/178159934-2b1179f0-b9e9-42d0-9a5b-aedda597b0e1.png)
+
 #### Lösungsversuch 1
 ![image](https://user-images.githubusercontent.com/63262820/178335616-1ec8e9f7-80eb-4820-b0de-8a87907e7a8d.png)
+
 #### Lösungsversuch 2
 reboot :)
 
