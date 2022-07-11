@@ -64,5 +64,8 @@ Heisst: Falsch:"guest : host" Richtig:"host : guest"
 ### 2. kein Plex Media Server/ Warum??? 21.55
 Ich hatte gerade den Plex Server aufgesetzt und es funktioniert super aber es siet nicht so aus wie erwartet, denn es ist ein detailierets abbild von plex.tv was ich nicht wollte. 
 1. Was habe ich jetzt? 
+![image](https://user-images.githubusercontent.com/63262820/178347956-a9c75a7a-5bd6-4f1d-a891-175fbe492786.png)
+
+Doch das richtige hihihi
 
 ---
