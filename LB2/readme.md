@@ -39,5 +39,12 @@ reboot :)
 
 Analyse der Volumes (Teil des LV 2)
 ![image](https://user-images.githubusercontent.com/63262820/178340939-1bfcd237-e95a-4c57-8519-7b4259ea60d4.png)
+Interessante Infos aus dem Inspect command
+1. Der name des Projektes leitet sich aus dem Ordnernamen ab (Ahhhhha)
+2. Ich habe die Docker Compose Version Falsch (1.0 statt 2.6.1)
+3. Aussicht von docker heisst dieser "ordner" nicht plexmueller_filme sondern nur filme
+4. Die Addressierung ist anders als in meinem Docker compose file ![image](https://user-images.githubusercontent.com/63262820/178341543-c0640268-a641-4ad2-a31a-e808bb4fdd61.png)
+Ist dies die Lösung?
+
 
 ---
