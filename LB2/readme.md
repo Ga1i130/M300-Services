@@ -37,4 +37,7 @@ Zubeginn des Projektes (nachdem ich das Docker Compose file Geschrieben hatte) b
 #### Lösungsversuch 2
 reboot :)
 
+Analyse der Volumes (Teil des LV 2)
+![image](https://user-images.githubusercontent.com/63262820/178340939-1bfcd237-e95a-4c57-8519-7b4259ea60d4.png)
+
 ---
