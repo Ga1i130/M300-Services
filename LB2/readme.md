@@ -19,14 +19,21 @@ Dies ist der Ordner für die Plex konfiguration
 
 ## Konfiguration
 1. Ideen Sammeln auf Websiten 
+
 https://computingforgeeks.com/how-to-run-plex-media-server-in-docker-containers/
 https://hub.docker.com/r/linuxserver/plex
 https://medium.com/@TechSquidTV/making-your-own-home-media-server-with-plex-and-docker-compose-techsquidtv-38a004257c66
 2. Erstes zusammenschreiben eines Docker Compose Files nach der Anleitung eines YT Videos
+3. Auftauchen des Ersten Errors (Siehe Probleme/1)
 
 ## Probleme
 
-1. Zubeginn des Projektes (nachdem ich das Docker Compose file Geschrieben hatte) bekam ich das problem, dass beim starten des Docker Compose befels mir dieser Error (Siehe unten) angezeit wird. Habe keine Ahnung was das für ein Problem ist.
+### 1.Mount error 
+Zubeginn des Projektes (nachdem ich das Docker Compose file Geschrieben hatte) bekam ich das problem, dass beim starten des Docker Compose befels mir dieser Error (Siehe unten) angezeit wird. Habe keine Ahnung was das für ein Problem ist.
 
 ![image](https://user-images.githubusercontent.com/63262820/178159934-2b1179f0-b9e9-42d0-9a5b-aedda597b0e1.png)
+#### Lösungsversuch 1
+![image](https://user-images.githubusercontent.com/63262820/178335616-1ec8e9f7-80eb-4820-b0de-8a87907e7a8d.png)
+
+
 ---
