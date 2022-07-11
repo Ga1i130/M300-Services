@@ -29,6 +29,13 @@ https://medium.com/@TechSquidTV/making-your-own-home-media-server-with-plex-and-
 4. 1 h später ![image](https://user-images.githubusercontent.com/63262820/178344856-84eee1f8-794a-4497-8b09-4623a4641bb2.png)
 OHA
 5. Neues Problem siehe Problem 2
+6. Doch kein Problem 
+7. ![image](https://user-images.githubusercontent.com/63262820/178348124-95a1eaf6-4002-4375-86b1-8fd5bea9d52d.png)
+Nun war ich an der Stelle an welcher ich die Info daten für den Plex server eingeben musste
+8. Hinzufügen der Mediatheken ![image](https://user-images.githubusercontent.com/63262820/178348531-5dbc6808-4c99-4155-b990-3aac96f0b84c.png)
+9. Fertig
+####10. Upload eines Videos
+
 ## Probleme
 
 ### 1.Mount error 
@@ -61,6 +68,8 @@ Heisst: Falsch:"guest : host" Richtig:"host : guest"
 ![image](https://user-images.githubusercontent.com/63262820/178344198-958a24eb-ce14-4a74-897a-ad7b7a584b72.png)
 ![image](https://user-images.githubusercontent.com/63262820/178344213-82dc840f-c98e-4601-912b-62d7c34ad717.png)
 
+---
+
 ### 2. kein Plex Media Server/ Warum??? 21.55
 Ich hatte gerade den Plex Server aufgesetzt und es funktioniert super aber es siet nicht so aus wie erwartet, denn es ist ein detailierets abbild von plex.tv was ich nicht wollte. 
 1. Was habe ich jetzt? 
@@ -69,3 +78,4 @@ Ich hatte gerade den Plex Server aufgesetzt und es funktioniert super aber es si
 Doch das richtige hihihi
 
 ---
+
