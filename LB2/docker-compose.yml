@@ -1,56 +1,54 @@
+
 ---
-version: "1.0" #Version des Docker Compose Files
+version: "1.17.1"
 
 volumes:
   data:
     driver: local
     driver_opts:
-      type: none
-      device: /home/ubuntu/data/plexmueller/config
+      type: volumes
+      device: /var/lib/docker/volumes/data
       o: bind
 
-#Mount des Musik Folders 
   musik:
     driver: local
     driver_opts:
-      type: none
-      device: /home/ubuntu/data/plexmueller/musik
+      type: volumes
+      device: /var/lib/docker/volumes/musik
       o: bind
 
-#Mount des Filme Folders 
   filme:
     driver: local
     driver_opts:
-      type: none
-      device: /home/ubuntu/data/plexmueller/filme
+      type: volumes
+      device: /var/lib/docker/volumes/filme
       o: bind
 
-#Mount des Serien Folders 
   serien:
     driver: local
     driver_opts:
-      type: none
-      device: /home/ubuntu/data/plexmueller/serien
+      type: volume
+      device: /var/lib/docker/volumes/serien
       o: bind
 
 services:
   plex:
-    image: ghcr.io/linuxserver/plex:latest #Plex Image von ghcr.io
-    container_name: plex 
+    image: ghcr.io/linuxserver/plex:latest
+    container_name: plexjanis
     restart: unless-stopped
-    ports: #Netzwerkports
+    ports:
       - 32400:32400
       - 32400:32400/udp
 
     volumes:
-      - data:/config
-      - musik:/media/musik
-      - serien:/media/serien
-      - filme:/media/filme
+      - /home/ubuntu/data/plexmueller/config:/medien/config
+      - /home/ubuntu/data/plexmueller/musik:/medien/musik
+      - /home/ubuntu/data/plexmueller/serien:/medien/serien
+      - /home/ubuntu/data/plexmueller/filme:/medien/filme
 
     environment:
       - TZ=Europe/Zuerich
       - PUID=1000
       - PGID=1000
       - VERSION=latest
-      - PLEX_CLAIM=claim-iEKfocShwkEAgyjgTY1P #Plex Claim Code läuf nach 5 min ab 
+      - PLEX_CLAIM=claim-zJFf5udVzmdBLk_MuTys
