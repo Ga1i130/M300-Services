@@ -51,4 +51,13 @@ Update: Nein war es nicht
 #### Lösungsversuch 3
 Ich wollte mal kurz nochmals auf formfehler kontrollieren :) Ich hatte einen gefunden 
 
+Das Problem war bei den Mount Paths der Volumes ich versuchete das Volume (auf dem host) namens config an den Mount point "mit dem Pfad x " anbinden. dies war falsch herum. 
+
+Heisst: Falsch:"guest : host" Richtig:"host : guest"
+
+![image](https://user-images.githubusercontent.com/63262820/178344198-958a24eb-ce14-4a74-897a-ad7b7a584b72.png)
+![image](https://user-images.githubusercontent.com/63262820/178344213-82dc840f-c98e-4601-912b-62d7c34ad717.png)
+
+
+
 ---
